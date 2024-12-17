@@ -1,0 +1,77 @@
+h1, h2 {
+background-color: #FFCBA4;
+padding: 10px;
+border-radius: 5px;
+text-align: center;
+}
+
+p {
+font-size: 17px;
+font-family: verdana;
+}
+
+table {
+margin: 30px auto;
+width: 90%;
+border-spacing: 25px;
+border-radius: 15px;
+}
+
+td {
+text-align: center;
+padding: 15px;
+position: relative; 
+}
+
+table img {
+width: 200px;
+height: 200px;
+border-radius: 10px;
+box-shadow: 0 4px 8px;
+transition: transform 0.3s;
+}
+
+table img:hover {
+transform: scale(1.1);
+}
+
+table p {
+font-family: high tower text, sans-serif;
+font-size: 14px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+img {
+border-radius: 10px;
+transition: transform 0.2s;
+}
+
+img:hover {
+transform: scale(1.1);
+}
+
+a img {
+transition: transform 0.3s;
+}
+
+a img:hover {
+transform: scale(1.2);
+}
+
+table .name {
+display: none;
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+font-size: 15px;
+color: white;
+background-color: black;
+padding 20px;
+border-radius: 5px;
+}
+
+table td:hover .name {
+display: block;
+}
